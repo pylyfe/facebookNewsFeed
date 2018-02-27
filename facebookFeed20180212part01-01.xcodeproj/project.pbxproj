@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		6654AA1A20316339005BEB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654AA1920316339005BEB06 /* AppDelegate.swift */; };
 		6654AA1C20316339005BEB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654AA1B20316339005BEB06 /* ViewController.swift */; };
-		6654AA1F20316339005BEB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6654AA1D20316339005BEB06 /* Main.storyboard */; };
 		6654AA2120316339005BEB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6654AA2020316339005BEB06 /* Assets.xcassets */; };
 		6654AA2420316339005BEB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6654AA2220316339005BEB06 /* LaunchScreen.storyboard */; };
+		668E4CA8203D532B00076F48 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E4CA7203D532B00076F48 /* CustomTabBarController.swift */; };
+		668E4CAA203D54FD00076F48 /* OtherControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E4CA9203D54FD00076F48 /* OtherControllers.swift */; };
+		668E4CAC203D57EA00076F48 /* MessengerControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E4CAB203D57EA00076F48 /* MessengerControllers.swift */; };
+		668E4CAE203D57F500076F48 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E4CAD203D57F500076F48 /* NotificationsController.swift */; };
+		668E4CB0203D580000076F48 /* MoreControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E4CAF203D580000076F48 /* MoreControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6654AA1620316338005BEB06 /* facebookFeed20180212part01-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebookFeed20180212part01-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6654AA1920316339005BEB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6654AA1B20316339005BEB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6654AA1E20316339005BEB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6654AA2020316339005BEB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6654AA2320316339005BEB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6654AA2520316339005BEB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668E4CA7203D532B00076F48 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		668E4CA9203D54FD00076F48 /* OtherControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherControllers.swift; sourceTree = "<group>"; };
+		668E4CAB203D57EA00076F48 /* MessengerControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerControllers.swift; sourceTree = "<group>"; };
+		668E4CAD203D57F500076F48 /* NotificationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		668E4CAF203D580000076F48 /* MoreControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				6654AA1920316339005BEB06 /* AppDelegate.swift */,
 				6654AA1B20316339005BEB06 /* ViewController.swift */,
-				6654AA1D20316339005BEB06 /* Main.storyboard */,
 				6654AA2020316339005BEB06 /* Assets.xcassets */,
 				6654AA2220316339005BEB06 /* LaunchScreen.storyboard */,
 				6654AA2520316339005BEB06 /* Info.plist */,
+				668E4CAB203D57EA00076F48 /* MessengerControllers.swift */,
+				668E4CA7203D532B00076F48 /* CustomTabBarController.swift */,
+				668E4CA9203D54FD00076F48 /* OtherControllers.swift */,
+				668E4CAD203D57F500076F48 /* NotificationsController.swift */,
+				668E4CAF203D580000076F48 /* MoreControllers.swift */,
 			);
 			path = "facebookFeed20180212part01-01";
 			sourceTree = "<group>";
@@ -126,7 +138,6 @@
 			files = (
 				6654AA2420316339005BEB06 /* LaunchScreen.storyboard in Resources */,
 				6654AA2120316339005BEB06 /* Assets.xcassets in Resources */,
-				6654AA1F20316339005BEB06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +148,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668E4CAE203D57F500076F48 /* NotificationsController.swift in Sources */,
 				6654AA1C20316339005BEB06 /* ViewController.swift in Sources */,
+				668E4CB0203D580000076F48 /* MoreControllers.swift in Sources */,
 				6654AA1A20316339005BEB06 /* AppDelegate.swift in Sources */,
+				668E4CAA203D54FD00076F48 /* OtherControllers.swift in Sources */,
+				668E4CA8203D532B00076F48 /* CustomTabBarController.swift in Sources */,
+				668E4CAC203D57EA00076F48 /* MessengerControllers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6654AA1D20316339005BEB06 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6654AA1E20316339005BEB06 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6654AA2220316339005BEB06 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +308,7 @@
 				6654AA2A20316339005BEB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
